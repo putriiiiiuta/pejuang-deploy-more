@@ -8,10 +8,10 @@
           <label> Nama</label>
           <input type="text" name="username" placeholder="" />
         </div>
-        <div class="input-group">
+        <!-- <div class="input-group">
           <label>Nama Restoran</label>
           <input type="text" name="nama_restoran" placeholder="" />
-        </div>
+        </div> -->
         <div class="input-group">
           <label> Email</label>
           <input type="text" name="email" placeholder="" />

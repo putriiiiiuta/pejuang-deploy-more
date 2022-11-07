@@ -7,27 +7,27 @@ const role = "restoran";
     <div class="login-wrapper">
       <form action="">
         <div class="align-center">
-          <p class="title">Welcome to MOLA dashboard</p>
-          <label> Selamat datang {{ role }}</label>
+          <p class="title">Kamu nanya mau makan apa?</p>
+          <label> Pilih makananmu di{{ role }}</label>
         </div>
       </form>
     </div>
     <div v-if="role == 'restoran'" class="login-wrapper info">
       <div class="info-item">
-        <h4 class="info-title">kuota gas</h4>
-        <div class="value">50</div>
+        <h4 class="info-title">Restoran</h4>
+        <div class="value">Restoran A</div>
       </div>
       <div class="info-item">
         <h4 class="info-title">Order bulan ini</h4>
-        <div class="value">450</div>
+        <div class="value">Ayam bakar</div>
       </div>
       <div class="info-item">
         <h4 class="info-title">Order Terakhir</h4>
-        <div class="value">3</div>
+        <div class="value">Ayam Geprek</div>
       </div>
       <div class="info-item">
         <h4 class="info-title">Order aktif</h4>
-        <div class="value">1</div>
+        <div class="value">Ayam goreng</div>
       </div>
     </div>
   </div>
@@ -42,7 +42,7 @@ const role = "restoran";
   border-radius: 10px;
   background-color: #FCEED5;
   padding: 10px;
-  color: aliceblue;
+  color: #070046;
   font-size: 15px;
 }
 .frame {
@@ -67,7 +67,7 @@ const role = "restoran";
 .info-item {
   background-color: #FCEED5;
   padding: 20px;
-  color: #ffffff;
+  color: #070046;
   text-align: center;
   border-radius: 10px;
   width: 23%;

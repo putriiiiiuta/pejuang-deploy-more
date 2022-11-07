@@ -26,16 +26,16 @@ const count = ref(0);
     </div>
 
     <div class="greeting">
-      <div class="greeting-content"><h3>Selamat Datang di BUY YUMMY, Pesan Makananmu sekarang juga!</h3></div>
+      <div class="greeting-content"><h3>Buy Yummy, Pesan makananmu sekarang juga!</h3></div>
     </div>
     <div class="fitur">
       <div class="fitur-item">
-        <img src="/c1.png" alt="" />
+        <img src="/c1.jpg" alt="" />
 
-        <h4>info kuota real-time</h4>
+        <h4>Pengumuman</h4>
       </div>
       <div class="fitur-item">
-        <img src="/c2.png" alt="" />
+        <img src="/dompet.png" alt="" />
         <h4>Pembayaran mudah dan fleksibel</h4>
       </div>
       <div class="fitur-item">

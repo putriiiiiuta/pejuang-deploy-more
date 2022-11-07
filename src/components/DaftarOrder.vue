@@ -27,10 +27,10 @@ const showAksi = ["admin", "kurir"].includes(role);
       </thead>
       <tbody>
         <tr v-for="i in 10">
-          <td>Restoran A</td>
+          <td>Ayam Pak Muh</td>
           <td>Ayam goreng</td>
           <td>2</td>
-          <td>Rp.10.000</td>
+          <td>Rp.20.000</td>
           <td>{{ i + 20 }}/10/2022</td>
           <td>Selesai</td>
           <td>
